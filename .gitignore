@@ -1,0 +1,36 @@
+# PostgreSQL storage and database exports
+/data/
+/backups/
+/*.sql
+*.dump
+*.backup
+
+# Local credentials (keep the shareable example)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python environments and generated files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Editor and OS files
+.idea/
+.vscode/
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.log
